@@ -14,8 +14,8 @@ server.use(
 server.use(express.json());
 
 server.use("/produto", produtoRoute);
-server.use("/", produtoRoute);
-server.use("/produto/:_id", produtoRoute);
+//server.use("/", produtoRoute);
+//server.use("/produto/:_id", produtoRoute);
 
 
 const DB_USER = "lecs2795";
